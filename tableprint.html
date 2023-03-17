@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // function table(number){
+        //    for(var i=1; i<=10; i++) {
+        //     var res = i*number
+        //     console.log(`${number}x ${i} = ${res}`)
+        //    }
+        // }
+        //  table(5)
+
+
+
+
+
+
+
+    //    what is Armstrong number ?          153 = 1*1*1*+ 5*5*5 + *6*4*5
+    
+    
+    var n =  prompt("enter aramstrong number") 
+    var tem = n;
+    var numofdigit = n.toString().length
+    var sum = 0;
+
+    //153%10 = 3
+   
+    while(tem>0){
+        console.log(tem)
+var digit = tem%10;
+
+   sum += digit**numofdigit;
+   console.log(sum)
+tem = parseInt(tem/10)
+console.log(tem)
+console.log('-------');
+
+    }
+    if (sum==n) {
+        console.log(`${n} is armstrong number`)
+    } else {
+        console.log(`${n} is not armstrong number`)
+    }
+
+        
+    </script>
+</head>
+<body>
+
+    
+</body>
+</html>
