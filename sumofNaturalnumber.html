@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find a sum of natural numers using recurion</title>      
+    
+
+    <script>
+
+
+
+// function sum(num){
+//     if (num>0) {
+//         return num +sum(num-1)
+//     } else {
+//         return num;
+//     }
+// }
+
+// var res=sum(5)
+// console.log(res)
+
+
+
+
+
+
+
+
+
+
+
+// calculeter  switch statement explain diagram 
+
+
+var num1 = prompt("please entr number") 
+var num2= prompt("please entr number") 
+var opr = prompt("plese selected - + * ,/")
+
+switch(opr)
+{
+    //if(opr =="+")
+case "+":
+    var res = parseFloat(num1)+parseFloat(num2);
+    console.log(`${num1}+${num2}=${res}`);
+    break;
+  
+
+        case "-":
+    var res = parseFloat(num1) - parseFloat(num2);
+    console.log(`${num1}-${num2}=${res}`);
+    break;
+
+    case "*":
+    var res = parseFloat(num1) * parseFloat(num2);
+    console.log(`${num1}*${num2}=${res}`);
+    break;
+
+    case "/":
+    var res = parseFloat(num1)  / parseFloat(num2);
+    console.log(`${num1}/${num2}=${res}`);
+    break;
+
+    default:
+        console.log("invelid operator")     
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
